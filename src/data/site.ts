@@ -4,8 +4,8 @@
  */
 export const site = {
   name: 'Md. Rufayed Islam',
-  brand: 'Pial',
-  wordmark: 'pial.',
+  brand: 'Rufayed',
+  wordmark: 'rufayed.',
   tagline: 'Design-minded software engineer in the making.',
   role: 'Software Engineering student · Cybersecurity',
 
