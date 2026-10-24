@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en" data-theme="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Pial — Software Engineer · Cybersecurity · Flutter</title>
+    <meta
+      name="description"
+      content="Pial (Md. Rufayed Islam) is a Software Engineering student at Daffodil International University specializing in Cybersecurity. Web development, Flutter, machine learning and practical software."
+    />
+    <meta name="author" content="Md. Rufayed Islam" />
+    <link rel="canonical" href="%VITE_SITE_URL%/" />
+    <meta name="theme-color" content="#0d0d0f" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Pial — Portfolio" />
+    <meta property="og:title" content="Pial — Design-minded Software Engineer" />
+    <meta
+      property="og:description"
+      content="Software Engineering student at DIU specializing in Cybersecurity, building practical web experiences and exploring Flutter and AI."
+    />
+    <meta property="og:url" content="%VITE_SITE_URL%/" />
+    <meta property="og:image" content="%VITE_SITE_URL%/og.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Pial — Design-minded Software Engineer" />
+    <meta
+      name="twitter:description"
+      content="Software Engineering student at DIU specializing in Cybersecurity."
+    />
+    <meta name="twitter:image" content="%VITE_SITE_URL%/og.png" />
+
+    <script>
+      // Set theme before first paint (no flash) and mark JS as available.
+      (function () {
+        var d = document.documentElement;
+        d.classList.add('js');
+        var t = null;
+        try { t = localStorage.getItem('theme'); } catch (e) {}
+        // Dark is the designed default; a visitor's saved choice always wins.
+        if (t !== 'light' && t !== 'dark') t = 'dark';
+        d.setAttribute('data-theme', t);
+        var m = document.querySelector('meta[name="theme-color"]');
+        if (m) m.setAttribute('content', t === 'light' ? '#f4f1ea' : '#0d0d0f');
+      })();
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <noscript>This portfolio needs JavaScript enabled. You can find me on GitHub: github.com/rufayed626pial</noscript>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

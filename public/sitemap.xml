@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>https://your-site.example.com/</loc></url>
+  <url><loc>https://your-site.example.com/projects/diu-transport-system</loc></url>
+  <url><loc>https://your-site.example.com/projects/blitzmed</loc></url>
+  <url><loc>https://your-site.example.com/projects/personal-portfolio</loc></url>
+  <url><loc>https://your-site.example.com/projects/budget-tracker</loc></url>
+  <url><loc>https://your-site.example.com/projects/ai-tic-tac-toe</loc></url>
+  <url><loc>https://your-site.example.com/projects/spam-classification</loc></url>
+  <url><loc>https://your-site.example.com/projects/cybersecurity-research</loc></url>
+</urlset>
